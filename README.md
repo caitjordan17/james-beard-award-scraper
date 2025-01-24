@@ -14,12 +14,12 @@ This Python app scrapes the list of James Beard Award Winners & Nominees from th
     - beautfulsoup4: for parsing HTML and extracting information
 
 Install the required libraries using:
-"""pip install requests beautifulsoup4"""
+```pip install requests beautifulsoup4```
 
 ### How to Use
 1. Clone or download this repository.
 2. Ensure Python and the required libraries are installed.
-3. Run the script: """python scraper.py"""
+3. Run the script: ```python scraper.py```
 4. The script will generate a JSON file named jb-restaurants-&-chefs.json containing the scraped data.
 
 ### Scraped Data Structure
@@ -33,7 +33,7 @@ The JSON output is a list of dictionaries, where each dictionary contains the fo
 - year: Year of the award.
 
 Example entry:
-"""
+```
     {
         "name": "Kristina Liedags Compton",
         "restaurant": "Hilda and Jesse",
@@ -42,7 +42,7 @@ Example entry:
         "level": "Semifinalist",
         "year": "2024"
     },
-"""
+```
 
 ### Notes
 - The script scrapes publicly available information from the James Beard Awards website.

@@ -1,4 +1,4 @@
-# James Beard Award Winners & Nominees Scraper
+# James Beard Award Winners & Nominees Scraper 👨‍🍳
 
 This Python app scrapes the list of James Beard Award Winners & Nominees from the offical James Beard website. Using it you can collect data on restaurants & chefs from their website as a JSON file.
 
